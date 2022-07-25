@@ -1,5 +1,5 @@
 SELECT
-	MIN(valor_plano) AS 'faturamento_minino',
+	MIN(valor_plano) AS 'faturamento_minimo',
   MAX(valor_plano) AS 'faturamento_maximo',
   (SELECT
 		ROUND(AVG(p.valor_plano), 2)
